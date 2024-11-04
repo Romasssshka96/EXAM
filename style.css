@@ -1,0 +1,576 @@
+main{
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.greetings{
+    padding: 100px 26px 125px 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    width: 475px;
+    height: 124px;
+    font-family: Poppins, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.hello{
+    width: 509px;
+    height: 144px;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 54px;
+    width: 240px;
+    height: 48px;
+}
+
+.ring{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    transition: 1s ease;
+}
+
+.ring:hover{
+    scale: 1.1;
+}
+
+.greetings .information .social img{
+    padding: 15px;
+    transition: 1s ease;
+}
+
+.greetings .information .social img:hover{
+    scale: 1.1;
+}
+
+.fb{
+    background: #728CF7;
+}
+
+.tw{
+    background: #E17094;
+}
+
+.in{
+    background: #68AAF3;
+;
+}
+
+.te{
+    background: #FF9B70;
+
+}
+
+.btn{
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.request{
+    width: 151px;
+    height: 55px;
+    border-radius: 10px;
+    background: #FF2950;
+    font-family: Poppins, sans-serif ;
+    color: #F9F9F9;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    border: none;
+    transition: 1s ease;
+}
+
+.request:hover{
+    box-shadow: 10px 6px 28px -12px rgba(0,0,0,0.75);
+}
+
+.cv{
+    margin-left: 30px;
+    width: 151px;
+    height: 55px;
+    border-radius: 10px;
+    border: 2px solid #FF9B70;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #22222280;
+    transition: 1s ease;
+}
+
+.cv:hover {
+    box-shadow: 10px 6px 28px -12px rgba(0, 0, 0, 0.75);
+}
+
+
+/*-----------------------------------------------------------*/
+
+.projects{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 76px 0 32px;
+    width: 1140px;
+    height: 519px;
+    border-radius: 35px;
+    background: #FF7315;
+}
+
+.computer-window{
+    width: 430px;
+    height: 329px;
+}
+
+h2{
+    color: #F9F9F9;
+    font-family: Poppins, sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+}
+
+.compleate{
+    margin-top: 16px;
+    color: #F9F9F9;
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.glad{
+    margin-top: 19px;
+    color: #F9F9F9;
+    font-family: Poppins, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+}
+
+.developer{
+    margin-top: 19px;
+    width: 570px;
+    color: #F9F9F9;
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+/*--------------------------------------------------------------------*/
+
+.why-my{
+    margin-top: 125px;
+}
+
+.why-my h2{
+    color: #222;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+}
+
+.why-my .wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.why-my .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    background: #2222221A;
+}
+h6{
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 50px;
+}
+.why-my p{
+    width: 240px;
+    color: #22222280;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+.portfolio{
+    padding-top: 125px;
+}
+
+.portfolio h2{
+    color: #222;
+    font-family: Poppins, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 59px;
+    text-transform: capitalize;
+
+}
+
+.grid{
+    margin: 64px auto 0 auto;
+    width: 978px;
+    height: 624px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+.reviews{
+    height: 643px;
+    width: 1440px;
+    margin: 125px auto 0 auto;
+    background: #FF7315;
+    padding-top: 48px;
+}
+
+.reviews .wrap{
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reviews h2{
+    margin: 0 auto;
+    width: 609px;
+    color: #F9F9F9;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.casing{
+    padding: 24px 55px 47px 55px;
+    width: 529px;
+    height: 179px;
+    border-radius: 30px;
+    background: #F9F9F9;
+}
+
+.reviews p{
+    width: 420px;
+    color: #222;
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/*-----------------------------------------------------------------*/
+
+.price{
+    margin-top: 125px;
+}
+
+.price h2{
+    text-align: center;
+    color: #222;
+    font-family: Poppins, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    text-transform: capitalize;
+}
+
+.price .wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price .item{
+    margin-top: 64px;
+    width: 335px;
+    height: 500px;
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0 20px 40px 0 rgba(255, 115, 21, 0.10);
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 335px;
+    height: 66px;
+    border-radius: 15px 15px 0 0;
+    background: #FF9B70;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.price .item h4{
+    color: #F9F9F9;
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.card-title{
+    display: flex;
+    margin-top: 36px;
+}
+
+.price .item h2{
+    color: #2B2B2B;
+    font-family: Poppins, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+
+.price .item p{
+    margin-left: 12px;
+    color: #2B2B2B;
+    opacity: 0.5;
+    font-kerning: none;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43px;
+    text-transform: capitalize;
+}
+
+.list-case{
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-case ul li{
+    position: relative;
+    color: #222;
+    font-kerning: none;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin-top: 12px;
+}
+
+.price .silver li:nth-child(n+3){
+    color: #222;
+    opacity: 0.5;
+}
+
+.price .gold li:nth-child(n+5){
+    color: #222;
+    opacity: 0.5;
+}
+
+.icon{
+    position: absolute;
+    left: -30px;
+    top: 3px;
+    width: 15px;
+    height: 9px;
+    border-left: solid 2px #FF7315;
+    border-bottom: solid 2px #FF7315;
+    transform: rotate(-45deg);
+}
+
+.cross{
+    position: absolute;
+    left: -25px;
+    top: 18px;
+}
+
+.cross::before, .cross::after{
+    content: "";
+    display: block;
+    margin-top: -15px;
+    width: 2px;
+    height: 15px;
+    background-color: rgba(43, 43, 43, 1);
+    opacity: 0.5;
+}
+
+.cross::before{
+    transform: rotate(-45deg);
+}
+
+.cross::after{
+    transform: rotate(45deg);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+
+.message{
+    width: 1110px;
+    height: 224px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    border-radius: 25px;
+    background: #FF7315;
+}
+
+.message h2{
+    color: #F9F9F9;
+    font-family: Poppins, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+}
+
+.message button{
+    width: 259px;
+    height: 70px;
+    border-radius: 10px;
+    background: #F9F9F9;
+    box-shadow: 0 0.927px 1.924px 0 rgba(0, 0, 0, 0.01);
+    color: #222;
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: 1s ease;
+}
+
+
+
+.message button:hover{
+    box-shadow: 10px 6px 28px -12px rgba(0,0,0,0.75);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+
+.blog{
+    width: 1140px;
+    margin-top: 125px;
+}
+
+.blog h2{
+    color: #222;
+    font-family: Poppins, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+}
+
+.blog .wrap{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.blog .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    height: 364px;
+    margin-top: 48px;
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.07);
+}
+
+.blog img{
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.blog .card h4{
+    margin-top: 24px;
+    color: #222;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+
+.blog p{
+    width: 240px;
+    height: 70px;
+    margin-top: 12px;
+    color: rgba(34, 34, 34, 0.50);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+/*--------------------------footer----------------------------------------*/
+
+
+footer{
+    margin-top: 125px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 170px;
+    background: #F1F1F1;
+}
